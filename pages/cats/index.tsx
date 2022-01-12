@@ -35,7 +35,6 @@ const Cats = ()=>{
                 phone={cat.phone}
                 email={cat.email}
                 image={{ url: cat.image.url, alt: cat.image.alt }}
-                isFavourite={cat.favoured}
               />
             ))}
             </div>
